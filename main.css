@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+hr {
+    border: none;
+    background-color: rgba(170,170,170,0.7);
+    color: rgba(170,170,170,0.7);
+    height: 2px;
+    width: 680px;
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.number {
+    padding: 5px 10px;
+    text-shadow: 1px 1px 2px black, 0 0 1em cadetblue;
+    position: absolute;
+}
+
+.header_one, .header_two, .header_three, .about_eleven, .about_ten, .about_twelve, .about_thirteen,
+.nav_seven, .nav_four {
+    background-color: rgba(103,103,103,0.7);
+    margin: 10px;
+    color: white;
+}
+
+.about_six, .about_five, .about_eight, .about_nine, .nav_seven {
+    background-color: rgba(170,170,170,0.7);
+    margin: 10px;
+    color: white;
+}
+
+/*header-------*/
+.head {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.header_one {
+    width: 17.5%;
+}
+
+.header_two {
+    width: 32.5%;
+}
+
+.header_three {
+    width: 50%;
+}
+
+.header_contacts {
+    display: flex;
+    flex-direction: column;;
+    text-align: right;
+    padding: 20px 10px;
+}
+
+.info {
+    color: white;
+}
+
+
+/*main ------------*/
+.main {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.nav_bar {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav_four {
+    height: 50%;
+}
+
+.nav_seven {
+    height: 20%;
+}
+
+.about_item {
+    width: 77%;
+}
+
+.about_five {
+    height: 25%;
+}
+
+.info_main {
+    padding: 5px 10px;
+    color: rgba(15,15,15,0.7);
+}
+
+.about_six-items {
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.about_six {
+    width: 16%;
+}
+
+.about_other-items {
+    height: 31.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_eight, .about_nine {
+    width: 50%;
+}
+
+
+/*footer*-------------*/
+
+.footer {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_ten, .about_eleven, .about_last {
+    width: 33%;
+}
+
+.about_last {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about_twelve, .about_thirteen {
+    height: 50%;
+}
+
+.about_eleven ul {
+    margin: 0;
+    list-style-position: inside;
+    padding: 0px;
+}
+
+.about_ten ul {
+    padding: 5px 10px;
+    margin: 0;
+    list-style-position: inside;
+    column-count: 2;
+    list-style-type: disc;
+}
+
+.rate {
+    padding-left: 20px;
+}
+
+.text {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.info_side {
+    padding: 10px 10px;
+}
+
+.line:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 700px;
+    background-color: slategray;
+}
+
